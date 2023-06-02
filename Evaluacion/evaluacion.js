@@ -75,4 +75,36 @@ function imprimirElementosArray(arrayN){
 
 imprimirElementosArray(arrayN);
 
+//13. ¿Cuál es la salida del siguiente código?
+let nombre = "Juan";
+
+function saludar() {
+  let nombre = "María";
+  console.log("Hola " + nombre);
+}
+
+saludar();
+console.log("Hola " + nombre);
+
+/*La salida del código es: Hola Maria
+	                       Hola Juan*/
+
+
+//14.	¿Cuál es la salida del siguiente código?
+let x = 5;
+
+function sumarUno() {
+  x++;
+}
+
+function restarUno() {
+  x--;
+}
+
+sumarUno();
+sumarUno();
+restarUno();
+console.log(x);
+
+//La respuesta es: 6
 
